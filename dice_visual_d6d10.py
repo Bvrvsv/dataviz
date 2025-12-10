@@ -27,3 +27,4 @@ Title = 'Results of rolling one D6 and one D10 50,000 times'
 fig = px.bar(x=poss_results, y=frequencies, labels={'x': 'Result', 'y': 'Frequency'},
              title=Title)  
 fig.show()
+#fig.write_html('d6_d10.html')
